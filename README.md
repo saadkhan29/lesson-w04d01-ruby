@@ -561,11 +561,11 @@ When you should use single-line and multi-line when clauses are up to you, it's 
 Example:
 
 ```ruby
-person_name = "Alanoud"
+person_name = "Saad"
 
 case person_name
-when "Usman" then p "Lead Instructor"
-when "Alanoud" then p "IA"
+when "Saad" then p "Lead Instructor"
+when "Abdullah" then p "IA"
 else
   p "Student"
 end
