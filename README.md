@@ -770,14 +770,14 @@ A Ruby hash is an unordered, dictionary-like collection organized by key-value p
 `tl;dr A hash is very similar to a JavaScript object.`
 
 ```ruby
-usman = { name: 'Usman', age: 0 }
+saad = { name: 'saad', age: 0 }
 ```
 
 Notice that is looks exactly like a JS object except the keys are symbols, not strings.
 
 ```ruby
 sei_class = {
-  teacher: "Usman",  
+  teacher: "saad",  
   students: ["Tony", "Steve", "Bruce"],  
   classroom: 3,
   in_session: true,  
@@ -785,14 +785,14 @@ sei_class = {
     morning: "Ruby Basics",
   }
 }  
-# => {:teacher=>"Usman", :students=>["Tony", "Steve", "Bruce"], :classroom=>3, :in_session=>true, :schedule=>{:morning=>"Ruby Basics"}}
+# => {:teacher=>"saad", :students=>["Tony", "Steve", "Bruce"], :classroom=>3, :in_session=>true, :schedule=>{:morning=>"Ruby Basics"}}
 ```
 
 Accessing hash values...
 
 ```ruby
 sei_class[:teacher]
-# => "Usman"
+# => "saad"
 ```
 Modifying hash values...
 
@@ -805,7 +805,7 @@ You can also use strings as hash keys...
 
 ```ruby
 sei_class = {
-  "teacher" => "Usman",  
+  "teacher" => "saad",  
   "students" => ["Tony", "Steve", "Bruce"],  
   "classroom" => 3,  
   "in_session" => true,  
@@ -819,7 +819,7 @@ Then can access in this way...
 
 ```ruby
 sei_class["teacher"]
-# => "Usman"
+# => "saad"
 ```
 
 And modify...
