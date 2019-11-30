@@ -9,8 +9,6 @@ REPL stands for Read-Evaluate-Print-Loop
 
 Ruby *DOES NOT* run in the browser. It is *purely* a server side. You will only be able to load it into the terminal.
 
-Remember that JavaScript runs server side as well as in the browser.
-
 
 ## Running ruby files
 
