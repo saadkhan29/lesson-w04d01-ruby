@@ -7,6 +7,9 @@
 * Easily switch Ruby versions
 * Execute a Ruby script
 
+## rbenv
+rbenv is a tool that lets you install and run multiple versions of Ruby side-by-side. It’s a simple, lightweight alternative to RVM that focuses solely on managing multiple Ruby environments.
+
 ## Note
 
 The `$` means to run it in the Terminal. So if I write `$ which ruby` it means to run `which ruby` in your bash Terminal.
