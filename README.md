@@ -260,7 +260,8 @@ Everything in Ruby is an **object**.
 Ruby uses same arithmetic operators as JavaScript:
 
 * `+`, `-`, `*`, `/`, `%`
-* Same order of operations too: P.E.M.D.A.S.  
+* Same order of operations too: P.E.M.D.A.S.  <br>
+It stands for Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
 
 ```rb
 1 + 2 # Addition
