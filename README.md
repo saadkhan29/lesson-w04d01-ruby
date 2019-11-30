@@ -99,7 +99,7 @@ We no longer need to precede new variables with `let` or `const`. Just use the n
 
 * Variables are instantiated as they are used
 * Written in snake_case. That means all lower case with words separated by underscores.
-* Variable names should still be semantic
+* Variable names should still be semantic (relating to meaning in language or logic).
 * Variables are still assigned using a single equals sign ( = )
 
 ```ruby
