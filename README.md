@@ -630,7 +630,6 @@ favorite_animal.upcase!
 
 #### When/why would you use symbols?
 
-* Most common use is as keys in hashes, the Ruby equivalent of objects (more on that later)
 * Make sure values that need to be constant stay constant
 * Enhance performance, use less memory
 
