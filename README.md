@@ -907,4 +907,4 @@ Here are the most important rules:
 
 * All variables and methods must use `snake_case`
 * All classes and modules must use `CamelCase`
-* All constants (besides classes and modules) must use `SCREAMING_SNAKE_CASE`
+
