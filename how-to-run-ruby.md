@@ -2,7 +2,8 @@
 
 You'll interact with your .rb files in a very similar way to your .js files.
 
-You'll use the `ruby` command and the repl `pry` instead of using $`node` like you might do for JavaScript.
+You'll use the `ruby` command and the repl `pry` instead of using $`node` like you might do for JavaScript. <br>
+REPL stands for Read-Evaluate-Print-Loop
 
 ### REALLY IMPORTANT
 
