@@ -102,16 +102,77 @@ We no longer need to precede new variables with `let` or `const`. Just use the n
 * Variable names should still be semantic (relating to meaning in language or logic).
 * Variables are still assigned using a single equals sign ( = )
 
+
 ```ruby
 my_favorite_animal = "flying squirrel"
 # => "flying squirrel"
 ```
 
-Although we don't use `let` or `const`, there is still syntax to designate whether a variable is local or global.
+### Global Variables
+Although we don't use `let` or `const`, there is still syntax to designate whether a variable is local or global.<br>
 
-* Undesignated implies local (e.g., my_number)
-* All-caps implies that your value is constant. Ruby will give you warnings if you try to change the value (e.g., PI = 3.14).
-* @ creates an instance variable, which we will cover later.
+Global variables begin with $. Uninitialized global variables have the value nil and produce warnings. <br>
+
+Assignment to global variables alters the global status. <br>
+
+Here is an example showing the usage of global variable. <br>
+
+```ruby
+$global_variable = 10
+class Class1
+   def print_global
+      puts "Global variable in Class1 is #$global_variable"
+   end
+end
+class Class2
+   def print_global
+      puts "Global variable in Class2 is #$global_variable"
+   end
+end
+
+class1obj = Class1.new
+class1obj.print_global
+class2obj = Class2.new
+class2obj.print_global
+```
+
+### Instance Variables
+Instance variables begin with @. Uninitialized instance variables have the value nil and produce warnings.
+
+Here is an example showing the usage of Instance Variables.
+
+```ruby
+#!/usr/bin/ruby
+
+class Customer
+   def initialize(id, name, addr)
+      @cust_id = id
+      @cust_name = name
+      @cust_addr = addr
+   end
+   def display_details()
+      puts "Customer id #@cust_id"
+      puts "Customer name #@cust_name"
+      puts "Customer address #@cust_addr"
+   end
+end
+
+# Create Objects
+cust1 = Customer.new("1", "John", "Wisdom Apartments, Ludhiya")
+cust2 = Customer.new("2", "Poul", "New Empire road, Khandala")
+
+# Call Methods
+cust1.display_details()
+cust2.display_details()
+```
+
+### Local Variables
+
+Local variables begin with a lowercase letter or _. The scope of a local variable ranges from class, module, def, or from a block's opening brace to its close brace {}.
+
+When an uninitialized local variable is referenced, it is interpreted as a call to a method that has no arguments.
+
+In the above example, local variables are id, name and addr.
 
 
 ### puts
