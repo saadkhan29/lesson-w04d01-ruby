@@ -79,9 +79,7 @@ While print prints all statements in one line. <br>
 And p is also returning each string in double quotes as well. <br>
 
 <br><br>
-```ruby
-exit unless "restaurant".include? "aura"
-```
+
 
 ```ruby
 ['toast', 'cheese', 'cola'].each { |food| print food.capitalize  }
