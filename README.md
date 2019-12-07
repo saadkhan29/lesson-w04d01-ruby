@@ -760,8 +760,6 @@ Ruby is very nice. It provides us with an extensive library of array methods we 
 
 **IMPORTANT**: You DO NOT need to memorize these. The following is just a sample of array methods available to you. You'll come to be more familiar with these as you need them and look them up in documentation.
 
-`tl;dr: The more you Google them, the better you'll remember them.`
-
 #### Push/Pop
 
 These JavaScript methods also exist in Ruby and are used the same way.
