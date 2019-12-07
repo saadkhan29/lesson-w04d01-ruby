@@ -543,7 +543,8 @@ When you see an `unless foo`, read it as `if !foo`
 A ternary operator looks just like we have seen in JS `condition ? true : false`
 
 ```ruby
-1 > 2 ? "condition is true" : "condition is false"
+1 > 2 ? x = "condition is true" : x = "condition is false"
+p x
 ```
 
 A more real life example is:
