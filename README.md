@@ -424,6 +424,42 @@ Logical operators are also similar.
 
 * The only falsey values in Ruby are `nil` and `false`
 
+### ”===” - triple equals
+
+```ruby
+if 1..18 === age
+  puts 'just out of college'
+elsif 19..30 === age
+  puts 'wild years'
+elsif 31..40 === age
+  puts 'i better find a job in a big corp'
+else
+  puts 'retirement plan'
+end
+```
+
+<br><br><br>
+
+But... the more better way to write the above code snippet is:
+
+<br><br>
+
+```ruby
+age = 19
+
+case age
+  when 1..18
+    puts 'just out of college'
+  when 19..30
+    puts 'wild years'
+  when 31..40
+    puts 'i better find a job in a big corp'
+  else
+    puts 'retirement plan'
+end
+```
+
+
 ### Nil
 
 Ruby's "nothing".
