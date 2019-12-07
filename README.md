@@ -66,7 +66,17 @@ Ruby is hyper readable, the lack of `;`, `()`, keywords like `var`, `let`, `cons
 ```ruby
 5.times { print "Hello!" }
 ```
+<br>
+Note:
+What the difference between p, puts and print.
+<br>
+<br>
+p and puts concatenating "\n" in every iteration. <br>
+While print prints all statements in one line. <br>
+<br>
+And p is also returning each string in double quotes as well. <br>
 
+<br><br>
 ```ruby
 exit unless "restaurant".include? "aura"
 ```
