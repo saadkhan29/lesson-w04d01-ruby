@@ -881,8 +881,8 @@ sei_class["teacher"] = "Marc"
 
 Like arrays, Ruby also provides us with a library of hash methods.
 
- * [Again, the Ruby documentation is a great resource](http://ruby-doc.org/core-2.6.1/Hash.html).
- * As mentioned with arrays, do not worry about memorizing these methods. Just know how to look them up should the need arise.
+ Important Note:
+ As mentioned with arrays, do not worry about memorizing these methods. Just know how to look them up should the need arise.
 
 #### Keys
 
@@ -958,4 +958,5 @@ Here are the most important rules:
 Recommended Material
 - [The Ruby documentation for `Array` is a great resource for learning more about these methods](http://ruby-doc.org/core-2.6.1/Array.html).
 - [How to Sort Arrays & Hashes in Ruby (Examples Included)](https://www.rubyguides.com/2017/07/ruby-sort/)
+- [Again, the Ruby documentation is a great resource](http://ruby-doc.org/core-2.6.1/Hash.html).
 
