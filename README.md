@@ -957,4 +957,5 @@ Here are the most important rules:
 
 Recommended Material
 - [The Ruby documentation for `Array` is a great resource for learning more about these methods](http://ruby-doc.org/core-2.6.1/Array.html).
+- [How to Sort Arrays & Hashes in Ruby (Examples Included)](https://www.rubyguides.com/2017/07/ruby-sort/)
 
