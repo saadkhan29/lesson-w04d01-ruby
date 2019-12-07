@@ -36,8 +36,9 @@ Performing everyday tasks, while intricate and complex, come to you naturally.
 
 ## Learning a New Language
 
-If you were going to learn a new programming language, what questions would you have? <br>
-You've already learned one programming language, and you're about to learn another! Think about the things you now know how to do in JavaScript. With this knowledge, consider what you might want to know about Ruby. 
+If you were going to learn a new programming language, what questions would you have? <br><br>
+You've already learned one programming language, and you're about to learn another! <br><br>
+Think about the things you now know how to do in JavaScript. With this knowledge, consider what you might want to know about Ruby. 
 
 <br><br>
 Take a few minutes to think about some questions that you have about this new language.
