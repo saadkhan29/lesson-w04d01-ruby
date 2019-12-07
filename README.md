@@ -416,13 +416,6 @@ Comparison operators in Ruby are nearly identical to JavaScript. However, the ch
 
 > Don't worry about `===` in Ruby for now. It [does not](http://mauricio.github.io/2011/05/30/ruby-basics-equality-operators-ruby.html) have the same application as in JavaScript.
 
-Logical operators are also similar.
-
-* `!`, `&&`, `||`
-
-"Truthiness" and "falsiness" are a lot less complicated in Ruby.
-
-* The only falsey values in Ruby are `nil` and `false`
 
 ### ”===” - triple equals
 
@@ -438,11 +431,11 @@ else
 end
 ```
 
-<br><br><br>
+<br><br>
 
 But... the more better way to write the above code snippet is:
 
-<br><br>
+<br>
 
 ```ruby
 age = 19
@@ -459,6 +452,13 @@ case age
 end
 ```
 
+Logical operators are also similar.
+
+* `!`, `&&`, `||`
+
+"Truthiness" and "falsiness" are a lot less complicated in Ruby.
+
+* The only falsey values in Ruby are `nil` and `false`
 
 ### Nil
 
