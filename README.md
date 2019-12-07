@@ -550,7 +550,9 @@ p x
 A more real life example is:
 
 ```ruby
-num.even? ? "#{num} is even!" : "#{num} is odd!"
+num = 8
+num.even? ? x = "#{num} is even!" : x = "#{num} is odd!"
+p x
 ```
 
 Same as:
