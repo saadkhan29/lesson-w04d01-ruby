@@ -703,9 +703,6 @@ Every string you create is unique and takes up space on your computer, even if t
 #=> the same number!
 ```
 
-## Data Type Exercise - Lab (30 minutes)
-
-Complete the exercises in [this document](data-types-exercises.md).
 
 
 ## Data Collections
@@ -941,19 +938,30 @@ Normally, only two dots are used. If a third dot is used, the last value in the 
 
 ```(0...5)``` represents the numbers 0 through 4.
 
-## Data Collection Exercise - Lab (30 minutes)
-Complete the exercises in [this document](data-collections-exercises.md).
-
 ## Ruby Code Style Guide
 
 The Ruby community is very opinionated about styling. As you are starting out, you MUST follow [these rules](https://github.com/bbatsov/ruby-style-guide).
 
 Here are the most important rules:
 
+
 **Casing**
 
 * All variables and methods must use `snake_case`
 * All classes and modules must use `CamelCase`
+
+# Labs
+
+## Data Type Exercise - Lab (30 minutes)
+
+Complete the exercises in [this document](data-types-exercises.md).
+
+
+## Data Collection Exercise - Lab (30 minutes)
+Complete the exercises in [this document](data-collections-exercises.md).
+
+
+
 
 ## Recommended Material
 - [The Ruby documentation for `Array` is a great resource for learning more about these methods](http://ruby-doc.org/core-2.6.1/Array.html).
