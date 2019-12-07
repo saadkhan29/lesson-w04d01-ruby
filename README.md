@@ -36,7 +36,11 @@ Performing everyday tasks, while intricate and complex, come to you naturally.
 
 ## Learning a New Language
 
-If you were going to learn a new programming language, what questions would you have? You've already learned one programming language, and you're about to learn another! Think about the things you now know how to do in JavaScript. With this knowledge, consider what you might want to know about Ruby. Take a few minutes to think about some questions that you have about this new language.
+If you were going to learn a new programming language, what questions would you have? <br>
+You've already learned one programming language, and you're about to learn another! Think about the things you now know how to do in JavaScript. With this knowledge, consider what you might want to know about Ruby. 
+
+<br><br>
+Take a few minutes to think about some questions that you have about this new language.
 
 Examples:
 
@@ -44,7 +48,7 @@ Examples:
 - Where do I go for information about Ruby? What kind of documentation exists for it?
 - Does Ruby have functions?
 
-Ruby and JavaScript each have unique features that you may find useful or ineffective. At the end of the day, you'll find that they share many qualities.
+Ruby and JavaScript each have unique features that you may find useful. At the end of the day, you'll find that they share many qualities.
 
 #### Flexibility
 
