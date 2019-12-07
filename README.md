@@ -67,7 +67,9 @@ Ruby is hyper readable, the lack of `;`, `()`, keywords like `var`, `let`, `cons
 5.times { print "Hello!" }
 ```
 <br>
-### LAB: (5 mins)
+
+#### LAB: (5 mins)
+
 What the difference between p, puts and print.
 <br>
 <br>
