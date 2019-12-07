@@ -952,12 +952,12 @@ Here are the most important rules:
 
 # Labs
 
-## Data Type Exercise - Lab (30 minutes)
+## Data Type Exercise - Lab
 
 Complete the exercises in [this document](data-types-exercises.md).
 
 
-## Data Collection Exercise - Lab (30 minutes)
+## Data Collection Exercise - Lab
 Complete the exercises in [this document](data-collections-exercises.md).
 
 
