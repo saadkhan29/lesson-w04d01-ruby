@@ -955,7 +955,7 @@ Here are the most important rules:
 * All variables and methods must use `snake_case`
 * All classes and modules must use `CamelCase`
 
-Recommended Material
+## Recommended Material
 - [The Ruby documentation for `Array` is a great resource for learning more about these methods](http://ruby-doc.org/core-2.6.1/Array.html).
 - [How to Sort Arrays & Hashes in Ruby (Examples Included)](https://www.rubyguides.com/2017/07/ruby-sort/)
 - [Again, the Ruby documentation is a great resource](http://ruby-doc.org/core-2.6.1/Hash.html).
