@@ -817,7 +817,7 @@ A Ruby hash is an unordered, dictionary-like collection organized by key-value p
 `tl;dr A hash is very similar to a JavaScript object.`
 
 ```ruby
-saad = { name: 'saad', age: 0 }
+saad = { name: 'saad', age: 32 }
 ```
 
 Notice that is looks exactly like a JS object except the keys are symbols, not strings.
