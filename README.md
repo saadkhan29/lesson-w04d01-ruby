@@ -758,9 +758,6 @@ numbers * 3
 
 Ruby is very nice. It provides us with an extensive library of array methods we can use to traverse and manipulate arrays.
 
-- [The Ruby documentation for `Array` is a great resource for learning more about these methods](http://ruby-doc.org/core-2.6.1/Array.html).
-- Can't go over them all, but chances are if you could do it in JavaScript then you can do it in Ruby.
-
 **IMPORTANT**: You DO NOT need to memorize these. The following is just a sample of array methods available to you. You'll come to be more familiar with these as you need them and look them up in documentation.
 
 `tl;dr: The more you Google them, the better you'll remember them.`
@@ -959,4 +956,7 @@ Here are the most important rules:
 
 * All variables and methods must use `snake_case`
 * All classes and modules must use `CamelCase`
+
+Recommended Material
+- [The Ruby documentation for `Array` is a great resource for learning more about these methods](http://ruby-doc.org/core-2.6.1/Array.html).
 
