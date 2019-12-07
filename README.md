@@ -364,11 +364,9 @@ You can concatenate strings but this is NOT recommend.
 'foo' + 2.to_s # => 'foo2'
 ```
 
-Above we see that we can NOT implicitly convert a non-string into a string (unlike what we have seen in JS).
 
 Use single quotes for strings that are not interpolated.
 
-> Warning: Backticks are not used for strings! They are used to execute commands.
 
 #### String Interpolation
 
